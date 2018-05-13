@@ -1,7 +1,7 @@
 ;(function(){
   function id(v){return document.getElementById(v); }
   function loadbar() {
-    var ovrl = id("preloader1"),
+    var ovrl = id("preloader"),
         prog = id("progress"),
         stat = id("progstat"),
         img = document.images,

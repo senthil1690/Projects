@@ -204,7 +204,7 @@
     -ms-transition:all 0.3s ease-in;
   }
   .ol_btn:hover .btn_txt{
-    color:#fff /*  #f47920 */ !important;
+    color:#fff /*  #52a134 */ !important;
     -webkit-transition:all 0.3s ease-in;
     -moz-transition:all 0.3s ease-in;
     -ms-transition:all 0.3s ease-in;
@@ -214,7 +214,7 @@
     position: absolute;
     height: 1px;
     width: 100%;
-    background:#f47920 /* #fff */;
+    background:#4af10b /* #fff */;
     z-index: 99;
   }
   .l1 .cl,.l3 .cl{
@@ -231,7 +231,7 @@
     position: absolute;
     height: 100%;
     width: 1px;
-    background: #f47920 /* #fff */;
+    background: #4af10b /* #fff */;
   }
   .l2 .cl,.l4 .cl{
     height: 0;
@@ -286,7 +286,7 @@
   width: 2px;
   height: 0;
   z-index: -1;
-  background: #f47920;
+  background: #52a134;
 }
 
 
@@ -336,9 +336,9 @@
 
 @media(max-width:767px){
   .acme_zoom_slider .project-slide .project-info .ol_btn{
-    border: 1px solid #f47920 !important;
+    border: 1px solid #52a134 !important;
     padding: 13px 25px;
-    color: #f47920; 
+    color: #52a134; 
     text-transform:uppercase !important;
   }
   .pre_title{

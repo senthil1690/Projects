@@ -12,7 +12,11 @@ a {
 
 #preloader,
 body {
-    overflow-y: hidden
+    overflow-y: hidden;
+    background:url("../imgs/splash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .job_list,
@@ -356,7 +360,7 @@ select:focus {
 }
 
 .text-yellow {
-    color: #f47920!important
+    color: #52a134!important
 }
 
 .txt-grey {
@@ -377,7 +381,7 @@ select:focus {
 }
 
 #preloader {
-    background: #191919;
+    /* background: #191919; */
     display: table;
     position: fixed;
     width: 100%;
@@ -388,7 +392,17 @@ select:focus {
     animation: textina 9s ease-in;
     z-index: 99996
 }
-
+canvas{
+    display:block;
+    vertical-align:bottom;
+  }
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+#particles-js{
+    width: 100%;
+    height: 100%;
+  }
 .preloader-dots {
     position: absolute;
     text-align: center;
@@ -399,7 +413,7 @@ select:focus {
 
 .preloader-dots .dot {
     display: inline-block;
-    background: #f37820;
+    background: #65ff2b;
     height: 8px;
     width: 8px;
     opacity: .3;
@@ -692,7 +706,7 @@ select:focus {
 }
 
 .pre_title {
-    color: #3a3a3a;
+    color: #fff;
     display: inline-block;
     font-size: 60px;
     position: relative;
@@ -736,7 +750,7 @@ select:focus {
 .pre_title:before {
     content: attr(data-fill);
     position: absolute;
-    color: #f47920;
+    color: #65ff2b;
     left: 0;
     width: 0;
     white-space: nowrap;
@@ -775,11 +789,21 @@ select:focus {
 
 #preloader .lines {
     position: fixed;
-    z-index: 99;
+    z-index: 10000;
     width: 100%;
     height: 100%
 }
-
+#preloader.hide  #particles-js
+{
+    display:none !important;
+}
+#particles-js
+{
+position:absolute;
+top:0;
+left:0;
+z-index:10;
+}
 #preloader .lines .line:before {
     background: #2b2b2b!important;
     z-index: 9
@@ -1002,8 +1026,8 @@ header {
 }
 
 .block_btn {
-    border: 1px solid #f47920;
-    color: #f47920;
+    border: 1px solid #52a134;
+    color: #52a134;
     border-radius: 0!important;
     padding: 17px 50px;
     text-transform: uppercase;
@@ -1028,7 +1052,7 @@ header {
 
 #cl_menu .navtxt li span,
 .block_btn.inq_btn:hover {
-    color: #f47920!important
+    color: #52a134!important
 }
 
 .brandbx {
@@ -1061,7 +1085,11 @@ header {
 .brand_space {
     position: absolute;
     z-index: 99;
-    padding: 0 10px
+    padding: 0 10px; 
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    
 }
 
 .op_menu {
@@ -1074,8 +1102,8 @@ header {
     display: inline-block;
     position: absolute;
     width: 50px;
-    height: 64px;
-    padding: 10px 0;
+    height: auto;
+    padding: 0px 0;
     overflow: hidden;
     text-align: center
 }
@@ -1087,14 +1115,25 @@ header {
 
 .logo {
     position: relative;
-    z-index: 9
+    z-index: 9;
+    text-align: center;
 }
 
 .master .logo {
     padding-top: 15px;
     display: block
 }
-
+.logo span
+{
+    font-size: 35px;
+    font-weight:normal;
+    color: #fff;
+}
+.logo span span
+{
+    font-weight: 900;
+    color: #52a134;
+}
 #cl_menu {
     position: fixed;
     top: 130px;
@@ -1113,7 +1152,7 @@ header {
 
 .op_menu:before {
     content: "";
-    background: #f47920;
+    background: #52a134;
     display: block;
     top: -9px;
     right: 8px;
@@ -1134,7 +1173,7 @@ header {
 }
 
 .button_container span {
-    color: #f47920;
+    color: #52a134;
     letter-spacing: 3.3px;
     display: inline-block;
     font-size: 15px;
@@ -1168,12 +1207,12 @@ header {
     display: block;
     width: 5px;
     height: 5px;
-    background: #f47920
+    background: #52a134
 }
 
 .grey_bx,
 .overlay {
-    background: #191919
+    background: rgba(21, 21, 21, 0.95);
 }
 
 #cl_menu .dots:first-child li:nth-child(2) span,
@@ -1256,10 +1295,10 @@ header {
 
 .button_container {
     position: relative;
-    margin: 0 auto 0 48px;
+    margin: 0 45px;
     cursor: pointer;
     left: -39px;
-    z-index: 9
+    z-index: 9;
 }
 
 .nav_revel {
@@ -1419,7 +1458,7 @@ footer .project_list li a:hover:before {
 footer .project_list li a:before {
     content: attr(data-fill);
     position: absolute;
-    color: #f47920;
+    color: #52a134;
     left: 0;
     z-index: 9;
     font-weight: 400;
@@ -1459,13 +1498,13 @@ footer .project_list li a:hover:before {
 }
 
 .project_menu li a:before {
-    color: #f47920!important;
+    color: #52a134!important;
     text-decoration: underline;
     left: 0
 }
 
 .project_bx .project_name:before {
-    color: #f47920!important;
+    color: #52a134!important;
     left: 0;
     height: 100%
 }
@@ -1572,7 +1611,7 @@ footer .rights_bx li i {
 }
 
 .ov_footer ul li a:hover {
-    color: #f47920
+    color: #52a134
 }
 
 .nw_bx,
@@ -1599,7 +1638,7 @@ footer .rights_bx li i {
 }
 
 .social li a:hover {
-    color: #f47920!important
+    color: #52a134!important
 }
 
 .overlay hr {
@@ -1832,7 +1871,7 @@ footer .rights_bx li i {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: 1000
+    z-index: 10000;
 }
 
 .bg-outer-wrap1,
@@ -1901,7 +1940,7 @@ footer .rights_bx li i {
     top: 50%!important;
     -webkit-transform: translateX(-50%) translateY(-50%)!important;
     -ms-transform: translateX(-50%) translateY(-50%)!important;
-    transform: translateX(-50%) translateY(-53%)!important;
+    transform: translateX(-50%) translateY(-50%)!important;
     width: auto;
     z-index: 100
 }
@@ -2098,7 +2137,7 @@ footer .rights_bx li i {
 
 #pro_inquiry p a:hover {
     text-decoration: underline!important;
-    color: #f47920!important
+    color: #52a134!important
 }
 
 .back_btn {
@@ -2294,11 +2333,11 @@ footer .rights_bx li i {
 }
 
 .guideline ul li a.current span {
-    border: 2px solid #f47920
+    border: 2px solid #52a134
 }
 
 .guideline ul li a.current span:before {
-    background: #f47920
+    background: #52a134
 }
 
 .guideline ul li a span {
@@ -2315,7 +2354,7 @@ footer .rights_bx li i {
     position: relative;
     width: 5px;
     display: block;
-    background: #f47920;
+    background: #52a134;
     margin: 5px auto;
     border-radius: 100%
 }
@@ -2439,7 +2478,7 @@ footer .rights_bx li i {
 
 .shdw_bx {
     position: absolute;
-    background: #f47920;
+    background: #52a134;
     width: 80%;
     height: 100%;
     top: 6%;
@@ -2540,7 +2579,7 @@ footer .rights_bx li i {
 .headbanner.active::after {
     width: 1px;
     height: 0;
-    background: #f47920;
+    background: #52a134;
     display: block;
     position: absolute;
     top: 90%;
@@ -2927,8 +2966,8 @@ footer .rights_bx li i {
 }
 
 .pdf_links a {
-    color: #f47920!important;
-    border-bottom: 1px solid #f47920;
+    color: #52a134!important;
+    border-bottom: 1px solid #52a134;
     padding-bottom: 0;
     display: inline-block;
     margin-bottom: 3px;
@@ -2956,7 +2995,7 @@ footer .rights_bx li i {
     height: 1px;
     left: 0;
     width: 0;
-    background: #f47920;
+    background: #52a134;
     margin: 25px auto
 }
 
@@ -3014,7 +3053,7 @@ footer .rights_bx li i {
 .carousel,
 .carousel-inner,
 .carousel-inner .carousel-item {
-    background: #f47920;
+    background: #52a134;
 }
 
 #construction .fig_img {
@@ -3034,7 +3073,7 @@ footer .rights_bx li i {
 
 .inner_counter.slide_counter ul li {
     margin: 0 1.9rem 2rem;
-    color: #f47920;
+    color: #52a134;
     width: 12vw
 }
 
@@ -3163,7 +3202,7 @@ footer .rights_bx li i {
 }
 
 .rarrow:hover .edge::after {
-    background: #f47920
+    background: #52a134
 }
 
 .edge::after {
@@ -3221,7 +3260,7 @@ footer .rights_bx li i {
 
 #our_clients .client_bx .see,
 .apply {
-    color: #f47920!important;
+    color: #52a134!important;
     text-decoration: underline;
     text-transform: uppercase;
     display: block
@@ -3398,7 +3437,7 @@ footer .rights_bx li i {
 }
 
 .big {
-    background: #f47920;
+    background: #52a134;
     height: 50%;
     width: 100%
 }
@@ -3543,7 +3582,7 @@ footer .rights_bx li i {
 
 .inq_form {
     margin-top: -2.5rem;
-    background: #f47920;
+    background: #52a134;
     padding: 10rem 0 4rem 6rem;
     position: relative;
     top: 0
@@ -3586,7 +3625,7 @@ footer .rights_bx li i {
 }
 
 .map_bx .tab li.active {
-    color: #f47920
+    color: #52a134
 }
 
 .map_bx .tabcontent {
@@ -3868,7 +3907,7 @@ footer .project_list ul li a {
 }
 
 footer a:hover {
-    color: #f47920!important
+    color: #52a134!important
 }
 
 .stmp_btm ul,
@@ -3887,7 +3926,7 @@ footer .project_list ul li a small {
 }
 
 footer .project_list ul li a:hover {
-    color: #f47920
+    color: #52a134
 }
 
 .ofc_address .add_bx .ofc_loc {
@@ -3913,7 +3952,7 @@ footer .query_bx li a {
 }
 
 footer .query_bx li a:hover {
-    color: #f47920!important;
+    color: #52a134!important;
     text-decoration: underline!important
 }
 
@@ -4010,7 +4049,7 @@ footer .ofc_address #right-panel1 .details {
 }
 
 .follow ul li a:hover i {
-    color: #f47920
+    color: #52a134
 }
 
 .progressBarContainer {
@@ -4073,7 +4112,7 @@ footer .ofc_address #right-panel1 .details {
 
 .fillbar {
     position: absolute;
-    background: #f47920;
+    background: #52a134;
     width: 100%;
     height: 100%;
     top: 0;
@@ -4240,7 +4279,7 @@ footer .ofc_address #right-panel1 .details {
 }
 
 .quote_bx {
-    background: #f47920;
+    background: #52a134;
     padding: 5vw;
     color: #fff;
     width: 100%
@@ -4340,7 +4379,7 @@ footer .ofc_address #right-panel1 .details {
 }
 
 .service_bx:hover .sb_btn {
-    background: #f47920;
+    background: #52a134;
     color: #fff!important
 }
 
@@ -4378,7 +4417,7 @@ footer .ofc_address #right-panel1 .details {
 }
 
 #explore_service h4::after {
-    background: #f47920;
+    background: #52a134;
     height: 1px;
     display: block;
     width: 280px;
@@ -4474,7 +4513,7 @@ footer .ofc_address #right-panel1 .details {
 
 #st_credit_dtl a,
 .source_crd li p span {
-    color: #f47920
+    color: #52a134
 }
 
 #st_map_dtl ul li a:hover {

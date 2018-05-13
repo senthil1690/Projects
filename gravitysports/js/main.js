@@ -113,18 +113,18 @@
             a(".load_object").addClass("active")
         }, 2e3);
 
-         setTimeout(function() {
-         jQuery(".project-slide .hero_video").get(0).play();
-        }, 5000);
-         setTimeout(function() {
-        jQuery(".project-slide .hero_video").get(1).play();
-        }, 10000);
-          setTimeout(function() {
-        jQuery(".project-slide .hero_video").get(2).play();
-        }, 15000);
-           setTimeout(function() {
-        jQuery(".project-slide .hero_video").get(3).play();
-        }, 20000);
+        //  setTimeout(function() {
+        //  jQuery(".project-slide .hero_video").get(0).play();
+        // }, 5000);
+        //  setTimeout(function() {
+        // jQuery(".project-slide .hero_video").get(1).play();
+        // }, 10000);
+        //   setTimeout(function() {
+        // jQuery(".project-slide .hero_video").get(2).play();
+        // }, 15000);
+        //    setTimeout(function() {
+        // jQuery(".project-slide .hero_video").get(3).play();
+        // }, 20000);
 
         var e = 0,
             t = 0,

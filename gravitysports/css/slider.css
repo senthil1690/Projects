@@ -170,7 +170,7 @@
     transition-delay: .45s
 }
 .acme_zoom_slider .project-slide .project-info a {
-    color: #f47920;
+    color: #52a134;
     font-size: 12px;
     font-weight: 400;
     backface-visibility: hidden;
@@ -544,10 +544,10 @@ body[data-ext-responsive="true"][data-full-width-header="true"] .acme_zoom_slide
 }
 
 .acme_zoom_slider .dot-nav .dot.active  span:before{
-    background: #f47920;
+    background: #52a134;
 }
 .acme_zoom_slider .dot-nav .dot.active span{
-    border-color:  #f47920;
+    border-color:  #52a134;
 } */
 
 /* .acme_zoom_slider .dot-nav .dot:last-child >  span:after,.acme_zoom_slider .dot-nav .dot:last-child >  span{
@@ -597,7 +597,7 @@ body[data-ext-responsive="true"][data-full-width-header="true"] .acme_zoom_slide
     top:1px;
 }
 .dot.active .indictr small,.dot.active .indicator_text{
-    color: #f47920;
+    color: #52a134;
 }
 .dot.active  .indictr:after{
     background: #fff;
@@ -620,7 +620,7 @@ body[data-ext-responsive="true"][data-full-width-header="true"] .acme_zoom_slide
 } 
 .ylbar{
     height: 1px;
-    background: #f47920;
+    background: #52a134;
     width: 0px;
     top: 36.3px;
     display: block;
