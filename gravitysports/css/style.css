@@ -38,7 +38,7 @@ a {
 #preloader,
 body {
     overflow-y: hidden;
-    background: url("../imgs/splash.jpg");
+    background: #191919 url("../imgs/splash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
