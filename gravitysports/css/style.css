@@ -1,8 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,800);
+@font-face {
+    font-family: 'Rockwell';
+    src: url('../fonts/RockwellStd.woff2') format('woff2'), url('../fonts/RockwellStd.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rockwell-Light';
+    src: url('../fonts/RockwellStd-Light.woff2') format('woff2'), url('../fonts/RockwellStd-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ostrich';
+    src: url('../fonts/ostrich.woff') format('woff'), url('../fonts/ostrich.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
 p,
 ul li,
 ul li a {
     font-weight: 400
+}
+
+li,
+ul {
+    list-style: none;
 }
 
 .mail:hover,
@@ -13,7 +38,7 @@ a {
 #preloader,
 body {
     overflow-y: hidden;
-    background:url("../imgs/splash.jpg");
+    background: url("../imgs/splash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,10 +68,6 @@ body {
     src: url(../font/TheanoDidot-Regular.ttf)
 }
 
-.didot_bold {
-    font-family: TheanoDidot-Regular!important
-}
-
 body,
 html {
     height: 100%;
@@ -65,7 +86,7 @@ body {
     line-height: 20px;
     font-size: 13px!important;
     background-color: #333!important;
-    font-family: 'Open Sans', sans-serif!important
+    font-family: 'Rockwell' !important;
 }
 
 #inner {
@@ -76,6 +97,10 @@ p {
     font-size: 14px;
     margin-bottom: .5rem!important;
     line-height: 21px
+}
+
+.display-flex {
+    display: flex;
 }
 
 .lh24 {
@@ -392,17 +417,21 @@ select:focus {
     animation: textina 9s ease-in;
     z-index: 99996
 }
-canvas{
-    display:block;
-    vertical-align:bottom;
-  }
-  .js-count-particles{
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.js-count-particles {
     font-size: 1.1em;
-  }
-#particles-js{
+}
+
+#particles-js {
     width: 100%;
     height: 100%;
-  }
+}
+
 .preloader-dots {
     position: absolute;
     text-align: center;
@@ -697,18 +726,23 @@ canvas{
 }
 
 #preloader .pre_content {
+    font-weight: normal;
     color: #fff;
     display: table-cell;
     width: 100%;
     height: 100%;
     vertical-align: middle;
-    text-align: center
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Rockwell-Light';
 }
 
 .pre_title {
     color: #fff;
     display: inline-block;
-    font-size: 60px;
+    font-family: 'Rockwell-Light';
+    font-size: 50px;
+    font-weight: normal;
     position: relative;
     opacity: 0;
     height: 68px;
@@ -750,6 +784,7 @@ canvas{
 .pre_title:before {
     content: attr(data-fill);
     position: absolute;
+    font-weight: normal;
     color: #65ff2b;
     left: 0;
     width: 0;
@@ -793,17 +828,18 @@ canvas{
     width: 100%;
     height: 100%
 }
-#preloader.hide  #particles-js
-{
-    display:none !important;
+
+#preloader.hide #particles-js {
+    display: none !important;
 }
-#particles-js
-{
-position:absolute;
-top:0;
-left:0;
-z-index:10;
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
+
 #preloader .lines .line:before {
     background: #2b2b2b!important;
     z-index: 9
@@ -1085,11 +1121,10 @@ header {
 .brand_space {
     position: absolute;
     z-index: 99;
-    padding: 0 10px; 
+    padding: 0 10px;
     left: 0;
     right: 0;
     margin: 0px auto;
-    
 }
 
 .op_menu {
@@ -1117,23 +1152,31 @@ header {
     position: relative;
     z-index: 9;
     text-align: center;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .master .logo {
     padding-top: 15px;
     display: block
 }
-.logo span
-{
-    font-size: 35px;
-    font-weight:normal;
+
+.logo span {
+    font-size: 50px;
+    font-weight: normal;
     color: #fff;
+    font-family: 'Rockwell-Light';
 }
-.logo span span
-{
+
+.logo span span {
     font-weight: 900;
     color: #52a134;
+    font-family: 'Rockwell';
 }
+
 #cl_menu {
     position: fixed;
     top: 130px;
@@ -1397,7 +1440,7 @@ header {
 .para,
 .sl_main_hd,
 .sl_sub_hd {
-    font-family: TheanoDidot-Regular!important;
+    font-family: 'Rockwell' !important;
     overflow: hidden
 }
 
@@ -1977,7 +2020,7 @@ footer .rights_bx li i {
 }
 
 .para span {
-    font-family: Roboto, sans-serif;
+    font-family: 'Rockwell';
     padding: 0 0 10px!important
 }
 
@@ -2638,7 +2681,7 @@ footer .rights_bx li i {
     display: block;
     position: relative;
     color: #f47821;
-    font-family: swis721-bt-roman;
+    font-family: 'Rockwell';
     font-size: 10px;
     letter-spacing: 2px;
     top: -86px;
@@ -2648,7 +2691,7 @@ footer .rights_bx li i {
 .emp_name h2,
 .inner_counter.slide_counter .num,
 .inner_counter.slide_counter sup {
-    font-family: TheanoDidot-Regular!important
+    font-family: 'Rockwell' !important;
 }
 
 .scroll_down a:focus,
@@ -4329,7 +4372,7 @@ footer .ofc_address #right-panel1 .details {
     font-size: 19px;
     line-height: 25px;
     color: #272727!important;
-    font-family: 'Open Sans', sans-serif!important
+    font-family: 'Rockwell' !important;
 }
 
 .projects footer,
@@ -4574,7 +4617,7 @@ footer .ofc_address #right-panel1 .details {
 .policy_content .para p {
     color: #272727!important;
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif!important
+    font-family: 'Rockwell' !important;
 }
 
 .policy_content .para ol li {
