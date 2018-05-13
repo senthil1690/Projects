@@ -415,7 +415,7 @@ select:focus {
     -moz-animation: textina 9s ease-in;
     -ms-animation: textina 9s ease-in;
     animation: textina 9s ease-in;
-    z-index: 99996
+    z-index: 99996;
 }
 
 canvas {
