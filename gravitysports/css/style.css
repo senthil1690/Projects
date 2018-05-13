@@ -1591,6 +1591,14 @@ footer .rights_bx li i {
     width: 0!important
 }
 
+.overlay-menu {
+    height: calc(100% - 100px) !important;
+}
+
+.overlay-menu>.row {
+    height: 100%;
+}
+
 .project_menu li img {
     position: relative;
     width: 100%;
@@ -4888,4 +4896,104 @@ footer .ofc_address #right-panel1 .details {
 
 .fa-twitter {
     display: none !important;
+}
+
+.menus-grid {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.menus-grid ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.menus-grid ul li {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.menus-grid ul li a {
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.menus-grid ul li i {
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.menus-grid ul li:hover span,
+.menus-grid ul li:hover i {
+    color: #52a134;
+}
+
+a.animated-button.victoria-two {
+    border: 2px solid #52a134;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+a.animated-button.victoria-two:after {
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: -1;
+    -webkit-transition: all 0.75s ease 0s;
+    -moz-transition: all 0.75s ease 0s;
+    -o-transition: all 0.75s ease 0s;
+    transition: all 0.75s ease 0s;
+    background: #52a134;
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+    transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+
+a.animated-button:hover:after,
+a.animated-button:hover:after {
+    height: 450%;
+}
+
+.button-center {
+    width: 150px !important;
+    position: relative !important;
+    z-index: 1000 !important;
+    margin: 0 auto;
+    cursor: pointer;
+    top: calc(50% + 70px);
+}
+
+.button-center a {
+    color: #52a134;
+    background: rgba(0, 0, 0, 0.35);
+    font-size: 20px;
+}
+
+.button-center a:hover {
+    color: #fff;
 }
