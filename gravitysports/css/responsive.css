@@ -1614,6 +1614,7 @@
 @media(max-width:768px) {
     .logo span {
         font-size: 35px;
+        white-space: nowrap;
     }
 }
 
