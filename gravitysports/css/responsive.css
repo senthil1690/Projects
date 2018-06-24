@@ -1616,6 +1616,9 @@
         font-size: 35px;
         white-space: nowrap;
     }
+    .cb-slideshow li div h3 p {
+        font-size: 40px;
+    }
 }
 
 @media(max-width:480px) {
@@ -1623,5 +1626,8 @@
         padding: 0px 20px;
         justify-content: flex-start;
         text-align: left;
+    }
+    .cb-slideshow li div h3 p {
+        font-size: 30px;
     }
 }
