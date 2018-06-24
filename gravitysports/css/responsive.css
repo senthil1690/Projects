@@ -1,1141 +1,1172 @@
-@media(max-width:600px){
-  /* .query_bx span,.query_bx a{
+@media(max-width:600px) {
+    /* .query_bx span,.query_bx a{
     font-size: 10px !important;
   } */
-  .brandbx .logo img{
-    width: 100px;
-  }
-  .bar_bx .social{
-    margin-top: 45px !important;
-  }
-  #brand_name_bar {
-      top: -8rem !important;
-  }
-  .overlay-menu .query_bx ul:first-child{
-    display: none !important;
-  }
-  .overlay{
-    padding: 0;
-  }
-  .ov_footer{
-    padding-top: 20px;
-  }
-  .ov_footer ul li{
-    margin: 3px 6px;
-  }
-.map_bx .tab li{
-        padding: 0 20px 12px 0;
-            font-size: 13px;
-}
-  .pdf_links.d-flex{
-    display: block !important;
-  }
-  .pdf_links ul{
-    padding-left: 0 !important;
-  }
-  #why_acme .slide_counter ul li{
-    margin: 0rem 2.5rem 3rem;
-  }
-  #quick_figure ul li{
-    margin: 0rem 1.5rem 3rem; 
-  }
-  #management .team_bx ul li{
-    font-size: 11px;
-    line-height: 15px;
-  }
-  .social{
-    margin-top: 0 !important;
-    float: none;
-  }
-  .ofc_address .query_bx ul:nth-child(2) {
-      padding-left: 52px;
-  }
-
-  .acme_zoom_slider .project-slide .project-info{
-    -webkit-transform: translateY(-40%) !important;
-      transform: translateY(-40%) !important;
-      left: 2% !important;
-      margin: 0 10px !important;
-  }
-  .project-info p{
-    font-size: 11.4px;  
-  }
-
-  .acme_zoom_slider ul.jumble{
-    margin-bottom: 0 !important;
-  }
-  .slide_counter ul li, .certificate ul li{
-    margin-right: 10px;
-  }
-  .slide_counter .num, .slide_counter .counter, .cert_name{
-    font-size: 16px !important;
-    line-height: 26px;
-  }
-  .ol_btn{
-    margin-top: 15px !important;
-  }
-  .slide_counter  sup {
-    font-size: 16px !important;
-  }
-  .project-slide:last-child .sl_sub_hd{
-    margin-top: -18px;
-  }
-  .msn sup {
-      right: -9px;
-      font-size: 12px !important;
-  }
-  .clientslogo{
-    display: none;
-  }
-  .cnt-title{
-    font-size: 9px;
-    line-height: 14px;
-  }
-  .acme_zoom_slider .dot-nav {
-      width: 50px !important;
-      right: 15px !important;
-      top: 62% !important;
-  }
-  .dot-nav .dot.active .indictr:after {
-      width: 30px;
-      background: #FF9800;
-  }
-  .ylbar,.indicator_text{
-    display: none;
-  }
-  .indictr{
-    width: 40px;
-  }
-  .indictr small{
-    font-size: 14px;
-  }
-  .certificate{
-    height: auto !important; 
-  }
-  footer .ftr_bx {
-     padding-left:1rem !important;
-  }
-  footer .project_list ul.cl1 {
-    padding: 0 0 3rem 3.5rem;
-  }
-  
-  .slct_boxes ul li{
-    padding: 5px 7px;
-  }
-  
-  #our_assets, #we_create .bigposter {
-     padding: 1rem;
-  }
-  .bigposter .u_head.space20{
-    margin-top: 10px !important;
-  }
-  .bigposter .asset_para  .sub_tit{
-    font-size: 12px !important;
-      width: 11rem !important;
-      line-height: 16px;
-  }
-  .bigposter .sm_bar.active{
-    margin: 15px 0 0px 0;
-  }
-  .asset_para{
-    padding-top: 0;
-  }
-  
-  #email_us .q_list ul:first-child li,footer .q_list ul:first-child li{
-    display: none;
-  }
-  .overlay .logo img{
-    width: 90px;
-      padding-top: 35px;
-  }
-  .project_menu,.right_aside{
-    padding-top: 10px;
-  }
-  .project_menu, .right_aside{
-      padding: 30px 0 0px 0;
-  }
-  #our_clients .client_bx{
-    min-height: 163px;
-  }
-  #our_clients .client_bx{
-    height: auto !important;
-  }
-  #our_clients .client_bx  .see{
-    margin-top: -14px;
-      font-size: 10px;
-  }
-
-  #pro_inquiry .form_bx{
-    padding-top: 19vw;  
-  }
-  .source_crd li p{
-    font-size: 16px;
-    margin-bottom: 0 !important ;
-  }
-  .fl::first-letter{
-    font-size: 7rem !important;
-    margin-right: -25px !important;
-  }
-  .project_intro .dflex li:last-child {
-    padding-left: 23px;
-  }
-  .key_feature li span:first-child{
-      width: 43px;
-  }
-  .key_feature li {
-    font-size: 10px !important ;  
-  }
-}
-
-
-
-@media(min-width:767px){
-  .ol_btn .btn_txt{
-      padding: 15px 25px;
-      text-transform: uppercase;
-      font-size: 13px;
-      letter-spacing: 0.5px;
-      position: relative;
-      overflow:hidden;
-      display: block;
-      z-index: 9;
-      -webkit-transition:all 0.3s ease-in;
-    -moz-transition:all 0.3s ease-in;
-    -ms-transition:all 0.3s ease-in;
-  }
-  .ol_btn:hover .btn_txt{
-    color:#fff /*  #52a134 */ !important;
-    -webkit-transition:all 0.3s ease-in;
-    -moz-transition:all 0.3s ease-in;
-    -ms-transition:all 0.3s ease-in;
-  }
-
-  .l1,.l3,.l1 .cl,.l3 .cl{
-    position: absolute;
-    height: 1px;
-    width: 100%;
-    background:#4af10b /* #fff */;
-    z-index: 99;
-  }
-  .l1 .cl,.l3 .cl{
-    width: 0;
-  }
-  .l3 .cl{
-    right: 0;
-  }
-  .l4 .cl{
-    bottom: 0;
-  }
-
-  .l2,.l4,.l2 .cl,.l4 .cl{
-    position: absolute;
-    height: 100%;
-    width: 1px;
-    background: #4af10b /* #fff */;
-  }
-  .l2 .cl,.l4 .cl{
-    height: 0;
-  }
-
-  .l1{
-    top: 0;
-    left:0;
-  }
-  .l2{
-    top: 0;
-    right: 0;
-  }
-  .l3{
-    bottom: 0;
-    left:0;
-  }
-
-  .l4{
-    bottom: 0;
-    left:0;
-  }
-  .ol_btn .cl{
-    position: absolute;
-    background:#fff;
-    -webkit-transition:all 0.3s ease-in-out;
-  }
-  .ol_btn .cl,.ol_btn:hover .l1 .cl,.ol_btn:hover .l3 .cl,
-  .ol_btn:hover .l2 .cl,.ol_btn:hover .l4 .cl{
-    -webkit-transition:all 0.3s ease-in;
-    -moz-transition:all 0.3s ease-in;
-    -ms-transition:all 0.3s ease-in;
-  }
-
-  .ol_btn:hover .l1 .cl,.ol_btn:hover .l3 .cl{
-    width: 100%;
-  }
-  .ol_btn:hover .l2 .cl,.ol_btn:hover .l4 .cl{
-    height:  100%;
-  }
-
-  .ol_btn:hover .l2 .cl,.ol_btn:hover .l4 .cl,.ol_btn .l1 .cl, .ol_btn .l3 .cl{
-  -webkit-transition-delay:0.25s;
-  -ms-transition-delay:0.25s;
-  -moz-transition-delay:0.25s;
-  }
-
-  .block_btn:after,.block_btn:before{
-  content: "";
-  display: block;
-  position: absolute;
-  width: 2px;
-  height: 0;
-  z-index: -1;
-  background: #52a134;
-}
-
-
-.inq_btn:after,.inq_btn:before{
-  background: #fff !important;
-}
-
-.block_btn:after{
-  right: 0;
-  top: 0;
-}
-.block_btn:before{
-  left: 0;
-  bottom: 0;
-}
-
-.block_btn:after,.block_btn:before{
-  -webkit-transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
-  -moz-transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
-  -ms-transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
-  transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
-}
-
-
-.block_btn:hover:after{
- /*  -webkit-animation:fillbtn 1s forwards; */
-  top: 0;
-  right:0;
-  width: 100%;
-  height: 50%;
-}
-
-.block_btn:hover:before{
- /*  -webkit-animation:fillbtn 1s forwards; */
-  bottom: 0;
-  left:0;
-  width: 100%;
-  height: 50%;
-}
-.back_btn:after,.back_btn:before{
-  background: #272727 !important;
-}
-
-}
-
-
-
-@media(max-width:767px){
-  .acme_zoom_slider .project-slide .project-info .ol_btn{
-    border: 1px solid #52a134 !important;
-    padding: 13px 25px;
-    color: #52a134; 
-    text-transform:uppercase !important;
-  }
-  .pre_title{
-    font-size: 32px !important;
-    top: -7px;
-  }
-  .start_proj img{
-    display: block !important;
-    margin-top: 4px;
-  }
-  .start_proj:before,.start_proj:after{
-    content: none;
-  }
-  .hero_video{
-    display: none;
-  }
-
-  .slide-bg{
-     display: block;
-  }
-  #email_us .query_bx ul:first-child{
-    display: none;
-  }
-  #inquiry .inq_form{
-    padding-top:5rem;
-  }
-   .quot_dtl{
-      padding:30px !important;
-  }
-  .keypoint ul li{
-    font-size: 13px;
-  }
-  .keypoint ul{
-    padding-right: 9vw; 
-  }
-
-
-.preloader-dots{
-    letter-spacing: -4px;
-      right: -38px;
-}
-.quote_bx {
-    padding: 50px 30px 50px 30px !important;
-}
-  .overlay{
-    overflow-y: scroll !important;
-  }
-  .overlay .project_menu li a {
-      font-size: 30px !important;
-      line-height:30px !important;
-  }
-  .ov_footer{
-    position: static;
-  }
-  .bigposter .u_head span{
-    font-size: 1.4rem !important;
-  }
-  .bigposter .u_head{
-    line-height: 1rem !important;
-  }
-
-  .bigposter .pos_title.u_head .word1 .char1 {
-      font-size: 3rem !important;
-  }
-  #footer{
-     padding: 50px 11px 0; 
-     }
-  footer .ftr_bx{
-      margin: 50px 10px 0;
+    .brandbx .logo img {
+        width: 100px;
     }
-   
-  footer .project_list ul li a {
-      font-size: 1.3rem;
-      line-height: 2rem;
-  }
-  footer .query_bx ul li a{
-     font-size: 10px;
-  }
-  .rights_bx{
-    text-align: center !important ;
-    margin: 0 15px;
-  }
-  .rights_bx ul li {
-      margin: 2px 6px;
-  }
-  .ac_pad,#our_clients.pad,.padr{
-    padding-left: 0rem !important;
-    padding-right: 0rem !important;
-    padding-top: 5rem;
-  }
-  .sub_bx .form-group {
-      width:200px !important;
-  }
-  #quick_figure ul li{
-    width: 24vw;
-    margin-bottom:3rem;
-  }
-  #brand_name_bar {
-      margin: -3vh 4vh 0 4vh;
-  }
-  #our_assets{
+    .bar_bx .social {
+        margin-top: 45px !important;
+    }
+    #brand_name_bar {
+        top: -8rem !important;
+    }
+    .overlay-menu .query_bx ul:first-child {
+        display: none !important;
+    }
+    .overlay {
+        padding: 0;
+    }
+    .ov_footer {
+        padding-top: 20px;
+    }
+    .ov_footer ul li {
+        margin: 3px 6px;
+    }
+    .map_bx .tab li {
+        padding: 0 20px 12px 0;
+        font-size: 13px;
+    }
+    .pdf_links.d-flex {
+        display: block !important;
+    }
+    .pdf_links ul {
+        padding-left: 0 !important;
+    }
+    #why_acme .slide_counter ul li {
+        margin: 0rem 2.5rem 3rem;
+    }
+    #quick_figure ul li {
+        margin: 0rem 1.5rem 3rem;
+    }
+    #management .team_bx ul li {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .social {
+        margin-top: 0 !important;
+        float: none;
+    }
+    .ofc_address .query_bx ul:nth-child(2) {
+        padding-left: 52px;
+    }
+    .acme_zoom_slider .project-slide .project-info {
+        -webkit-transform: translateY(-40%) !important;
+        transform: translateY(-40%) !important;
+        left: 2% !important;
+        margin: 0 10px !important;
+    }
+    .project-info p {
+        font-size: 11.4px;
+    }
+    .acme_zoom_slider ul.jumble {
+        margin-bottom: 0 !important;
+    }
+    .slide_counter ul li,
+    .certificate ul li {
+        margin-right: 10px;
+    }
+    .slide_counter .num,
+    .slide_counter .counter,
+    .cert_name {
+        font-size: 16px !important;
+        line-height: 26px;
+    }
+    .ol_btn {
+        margin-top: 15px !important;
+    }
+    .slide_counter sup {
+        font-size: 16px !important;
+    }
+    .project-slide:last-child .sl_sub_hd {
+        margin-top: -18px;
+    }
+    .msn sup {
+        right: -9px;
+        font-size: 12px !important;
+    }
+    .clientslogo {
+        display: none;
+    }
+    .cnt-title {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .acme_zoom_slider .dot-nav {
+        width: 50px !important;
+        right: 15px !important;
+        top: 62% !important;
+    }
+    .dot-nav .dot.active .indictr:after {
+        width: 30px;
+        background: #FF9800;
+    }
+    .ylbar,
+    .indicator_text {
+        display: none;
+    }
+    .indictr {
+        width: 40px;
+    }
+    .indictr small {
+        font-size: 14px;
+    }
+    .certificate {
+        height: auto !important;
+    }
+    footer .ftr_bx {
+        padding-left: 1rem !important;
+    }
+    footer .project_list ul.cl1 {
+        padding: 0 0 3rem 3.5rem;
+    }
+    .slct_boxes ul li {
+        padding: 5px 7px;
+    }
+    #our_assets,
+    #we_create .bigposter {
+        padding: 1rem;
+    }
+    .bigposter .u_head.space20 {
+        margin-top: 10px !important;
+    }
+    .bigposter .asset_para .sub_tit {
+        font-size: 12px !important;
+        width: 11rem !important;
+        line-height: 16px;
+    }
+    .bigposter .sm_bar.active {
+        margin: 15px 0 0px 0;
+    }
+    .asset_para {
+        padding-top: 0;
+    }
+    #email_us .q_list ul:first-child li,
+    footer .q_list ul:first-child li {
+        display: none;
+    }
+    .overlay .logo img {
+        width: 90px;
+        padding-top: 35px;
+    }
+    .project_menu,
+    .right_aside {
+        padding-top: 10px;
+    }
+    .project_menu,
+    .right_aside {
+        padding: 30px 0 0px 0;
+    }
+    #our_clients .client_bx {
+        min-height: 163px;
+    }
+    #our_clients .client_bx {
+        height: auto !important;
+    }
+    #our_clients .client_bx .see {
+        margin-top: -14px;
+        font-size: 10px;
+    }
+    #pro_inquiry .form_bx {
+        padding-top: 19vw;
+    }
+    .source_crd li p {
+        font-size: 16px;
+        margin-bottom: 0 !important;
+    }
+    .fl::first-letter {
+        font-size: 7rem !important;
+        margin-right: -25px !important;
+    }
+    .project_intro .dflex li:last-child {
+        padding-left: 23px;
+    }
+    .key_feature li span:first-child {
+        width: 43px;
+    }
+    .key_feature li {
+        font-size: 10px !important;
+    }
+}
+
+@media(min-width:767px) {
+    .ol_btn .btn_txt {
+        padding: 15px 25px;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        z-index: 9;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+    }
+    .ol_btn:hover .btn_txt {
+        color: #fff/*  #52a134 */
+        !important;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+    }
+    .l1,
+    .l3,
+    .l1 .cl,
+    .l3 .cl {
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        background: #4af10b/* #fff */
+        ;
+        z-index: 99;
+    }
+    .l1 .cl,
+    .l3 .cl {
+        width: 0;
+    }
+    .l3 .cl {
+        right: 0;
+    }
+    .l4 .cl {
+        bottom: 0;
+    }
+    .l2,
+    .l4,
+    .l2 .cl,
+    .l4 .cl {
+        position: absolute;
+        height: 100%;
+        width: 1px;
+        background: #4af10b/* #fff */
+        ;
+    }
+    .l2 .cl,
+    .l4 .cl {
+        height: 0;
+    }
+    .l1 {
+        top: 0;
+        left: 0;
+    }
+    .l2 {
+        top: 0;
+        right: 0;
+    }
+    .l3 {
+        bottom: 0;
+        left: 0;
+    }
+    .l4 {
+        bottom: 0;
+        left: 0;
+    }
+    .ol_btn .cl {
+        position: absolute;
+        background: #fff;
+        -webkit-transition: all 0.3s ease-in-out;
+    }
+    .ol_btn .cl,
+    .ol_btn:hover .l1 .cl,
+    .ol_btn:hover .l3 .cl,
+    .ol_btn:hover .l2 .cl,
+    .ol_btn:hover .l4 .cl {
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+    }
+    .ol_btn:hover .l1 .cl,
+    .ol_btn:hover .l3 .cl {
+        width: 100%;
+    }
+    .ol_btn:hover .l2 .cl,
+    .ol_btn:hover .l4 .cl {
+        height: 100%;
+    }
+    .ol_btn:hover .l2 .cl,
+    .ol_btn:hover .l4 .cl,
+    .ol_btn .l1 .cl,
+    .ol_btn .l3 .cl {
+        -webkit-transition-delay: 0.25s;
+        -ms-transition-delay: 0.25s;
+        -moz-transition-delay: 0.25s;
+    }
+    .block_btn:after,
+    .block_btn:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 2px;
+        height: 0;
+        z-index: -1;
+        background: #52a134;
+    }
+    .inq_btn:after,
+    .inq_btn:before {
+        background: #fff !important;
+    }
+    .block_btn:after {
+        right: 0;
+        top: 0;
+    }
+    .block_btn:before {
+        left: 0;
+        bottom: 0;
+    }
+    .block_btn:after,
+    .block_btn:before {
+        -webkit-transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
+        -moz-transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
+        -ms-transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
+        transition: height .3s cubic-bezier(1, 0, 0, 1), width 0.4s ease .3s;
+    }
+    .block_btn:hover:after {
+        /*  -webkit-animation:fillbtn 1s forwards; */
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .block_btn:hover:before {
+        /*  -webkit-animation:fillbtn 1s forwards; */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .back_btn:after,
+    .back_btn:before {
+        background: #272727 !important;
+    }
+}
+
+@media(max-width:767px) {
+    .acme_zoom_slider .project-slide .project-info .ol_btn {
+        border: 1px solid #52a134 !important;
+        padding: 13px 25px;
+        color: #52a134;
+        text-transform: uppercase !important;
+    }
+    .pre_title {
+        font-size: 32px !important;
+        top: -7px;
+    }
+    .start_proj img {
+        display: block !important;
+        margin-top: 4px;
+    }
+    .start_proj:before,
+    .start_proj:after {
+        content: none;
+    }
+    .hero_video {
+        display: none;
+    }
+    .slide-bg {
+        display: block;
+    }
+    #email_us .query_bx ul:first-child {
+        display: none;
+    }
+    #inquiry .inq_form {
+        padding-top: 5rem;
+    }
+    .quot_dtl {
+        padding: 30px !important;
+    }
+    .keypoint ul li {
+        font-size: 13px;
+    }
+    .keypoint ul {
+        padding-right: 9vw;
+    }
+    .preloader-dots {
+        letter-spacing: -4px;
+        right: -38px;
+    }
+    .quote_bx {
+        padding: 50px 30px 50px 30px !important;
+    }
+    .overlay {
+        overflow-y: scroll !important;
+    }
+    .overlay .project_menu li a {
+        font-size: 30px !important;
+        line-height: 30px !important;
+    }
+    .ov_footer {
+        position: static;
+    }
+    .bigposter .u_head span {
+        font-size: 1.4rem !important;
+    }
+    .bigposter .u_head {
+        line-height: 1rem !important;
+    }
+    .bigposter .pos_title.u_head .word1 .char1 {
+        font-size: 3rem !important;
+    }
+    #footer {
+        padding: 50px 11px 0;
+    }
+    footer .ftr_bx {
+        margin: 50px 10px 0;
+    }
+    footer .project_list ul li a {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    footer .query_bx ul li a {
+        font-size: 10px;
+    }
+    .rights_bx {
+        text-align: center !important;
+        margin: 0 15px;
+    }
+    .rights_bx ul li {
+        margin: 2px 6px;
+    }
+    .ac_pad,
+    #our_clients.pad,
+    .padr {
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        padding-top: 5rem;
+    }
+    .sub_bx .form-group {
+        width: 200px !important;
+    }
+    #quick_figure ul li {
+        width: 24vw;
+        margin-bottom: 3rem;
+    }
+    #brand_name_bar {
+        margin: -3vh 4vh 0 4vh;
+    }
+    #our_assets {
         margin: 0 2rem;
-  }
-  .op_menu, .cl_menu{
+    }
+    /* .op_menu, .cl_menu{
      position: fixed;
      top: 3rem;
       right: 2rem;
       left: auto;
-  }
-  .brandbx.affix .op_menu,.op_menu{
-    -webkit-transition:all 0.5s linear;
-    -moz-transition:all 0.5s linear;
-    -ms-transition:all 0.5s linear;
-  }
-  .brandbx.affix .op_menu{
-    top: 1.2rem;
-  }
-  .s_img{
-    margin: 0;
-  }
-  .s_img img{
-    width: 100%;
-  }
-  .map_bx .tab,.map_bx .tabcontent{
-    float: none;
-    width: 100%;
-    border:none;
-  }
-  .prof_content{
-    width: 100%;
-  }
-  #quick_figure .prof_content,#construction .prof_content{
-    margin-left: 0 !important;
-  }
-
-  .prof_img {
-     margin-top: 3.5rem;
-  }
-  .headbanner {
+  } */
+    .brandbx.affix .op_menu,
+    .op_menu {
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+    }
+    .brandbx.affix .op_menu {
+        top: 1.2rem;
+    }
+    .s_img {
+        margin: 0;
+    }
+    .s_img img {
+        width: 100%;
+    }
+    .map_bx .tab,
+    .map_bx .tabcontent {
+        float: none;
+        width: 100%;
+        border: none;
+    }
+    .prof_content {
+        width: 100%;
+    }
+    #quick_figure .prof_content,
+    #construction .prof_content {
+        margin-left: 0 !important;
+    }
+    .prof_img {
+        margin-top: 3.5rem;
+    }
+    .headbanner {
         padding: 7rem 2.25rem 8rem;
-  }
-  .brand_detail .headbanner {
+    }
+    .brand_detail .headbanner {
         padding-top: 9rem;
-  }
-  #our_assets, #we_create .bigposter{
-    padding: 2rem;
-  }
-  .quality_content {
-      width: 100% !important;
-  }
-  .prof_content, .quality_content{
-    padding: 50px 10px;
-  }
- 
-  #buy_number .inner_counter.slide_counter ul li{
-    width: 25vw;
-  }
-  
-  .brandbx{
-    height: 90px;
-  }
-
-  
-  .inqproject .block_btn{
-    display: inline-block;
-      margin: 6px -28px;
-      padding: 6px 8px;
-      border: none;
-  }
-  .inqproject .block_btn:hover{
-    background: transparent;
-  }
-  .boxed_layout{
-    margin: 0 10px;
-  }
-  .detail{
-    padding-right: 10vw;
-  }
-  #our_profile .prof_img{
-     top: 4rem; 
-  }
-  .inner_counter.slide_counter .num{
-    font-size: 3rem !important;
-  }
-  .inner_counter.slide_counter sup{
-    top: 40px;
-  }
-  #our_profile .prof_img,.quality_img,#why_acme .car_intro{
-    position: relative !important;
-  }
-  .headbanner.active::after{
-    top: 78%;
-  }
-  .quality_img{
-    top: 14rem !important;
-       right: 0rem;
-  }
-  #construction .fig_img,#quick_figure .fig_img,.overlay-menu .img_block,.inqproject span{
-    display: none;
-  }
-  .ac_pad,.padbigbtm{
-      padding-bottom: 5rem !important;
-  }
-  #all_blog .padbigbtm{
-      padding-bottom: 15rem !important;
-  }
-
-  #explore_service h4{
-    font-size: 14px;
-  }
-  #explore_service h4::after {
-      width: 120px;
-  }
-  .job_bx{
-    padding:2rem;
-  }
-  #buy_number{
-    margin-top: 50px;
-  }
-  #why_acme .car_intro{
-    position: relative;
-  }
-  #all_vendor .inq_form,.contact .inq_form{
-    padding: 2rem 2rem 4rem 2rem;
-    width: 80vw;
-     margin: -2.5rem auto 0 auto;
-  }
-  
-  #loc_map .service__img iframe{
-    height: 300px;
-  }
-  #all_services .ser_intro,#all_vendor .ser_intro,.contact .ser_intro,.career .car_intro,#cur_open .car_intro,#all_blog .ser_intro{
-    width: 16rem !important;
-    padding: 15px 25px !important;
-  }
-  .service_bx.bx1 .ser_intro,.service_bx.bx3 .ser_intro,#all_vendor .service_bx .ser_intro,.contact .ser_intro,.career .car_intro,.career_img {
-    left: 0 !important;
-  }
-  .service_bx.bx2 .ser_intro,.service_bx.bx4 .ser_intro{
-    right: 0 !important;
-  }
-  #all_services .u_head,#all_vendor .u_head,#why_acme .u_head,#cur_open .u_head,#all_blog .u_head{
-      font-size: 1.6rem;
-      line-height: 2rem !important;
-  }
-  #subscription .u_head{
-    font-size: 2.6rem;
-      line-height: 3rem !important;
-      margin-top: 1rem;
-  }
-  #all_services .sm_bar,#all_vendor .sm_bar,.contact .sm_bar,.career .sm_bar,#all_blog .sm_bar{
-    margin: 15px 0;   
-  }
-  #buy_number  .sm_bar{
-    margin: 0 auto !important;
-  }
-  #buy_number .slide_counter {
-      margin-top: 5rem;
-  }
-  #all_services  p,#all_vendor p,#all_blog p,#all_contact p{
-    font-size: 12px;
-    line-height: 16px
-  }
-  
-  .abt_brand .content {
-    width: 16rem;
-  }
-  #quote .career_img {
-      left: 0 !important;
-      margin: 3.5rem 0;
-  }
-  #qpo .quot_dtl{
-    width: 100% !important;
-    margin-left: 0;
-  }
-  .pro_testimonial,.carousel{
-      width: 90vw;
-  }
-  .input__label--ruri{
-    font-size: 1rem !important;
-  }
-  #pro_inquiry .block_btn.submit{
-    margin-top: 20px !important;
-  }
-  #pro_inquiry .form_bx {
-      padding-top: 2vw !important;
-  }
-  #project_album .poster{
-    padding-top: 3.5rem !important;
-    margin-bottom: 0 !important;
-  }
-  .block_btn{
-    padding: 10px 30px;
-  }
-  .bigposter .u_head .word1, .bigposter .u_head .word2, .bigposter .u_head .word3, .bigposter .u_head .word4 {
-      padding-right: 0;
-  }
-  .career .overlay1{
-    z-index: 99;
-  }
-  .block-revealer{
-    z-index: 100;
-  }
-  .modal__inner{
-    max-height: 450px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  .btn--modal-close{
-      padding: 6px 20px;
-  }
-  .modal__inner{
-    padding: 2rem !important;
-  }
-  .modal__inner .fsize24{
-    font-size: 20px !important;
-  }
-  .desk_form,.desk{
-    display: none !important;
-  }
-  .mob{
-    display: block;
-  }
-  .mob_form .form_bx{
-    background: #191919;
-    margin: 0 20px;
-  }
-  .mob_form .boxed_layout{
-    margin: 0 !important;
-  }
-  #pro_inquiry.mob_form{
-    display: block;
-    height: auto !important;
-    position:static !important;
-    background: #fff !important;
-    -webkit-transform: translateX(0) !important; 
-    -ms-transform: translateX(0) !important;
-    -moz-transform: translateX(0) !important;
-  }
-  #pro_inquiry .form-group{
-    margin-bottom: 1rem;
-  }
-  #pro_inquiry input{
-    border-bottom: 2px solid #666;
-  }
-  .modal--open .inq_btn{
-          margin-bottom: 15px;
-  }
-  #pro_inquiry .boxed_layout{
-    margin-left: 0 !important;
-  }
-  .apply_form{
+    }
+    #our_assets,
+    #we_create .bigposter {
+        padding: 2rem;
+    }
+    .quality_content {
+        width: 100% !important;
+    }
+    .prof_content,
+    .quality_content {
+        padding: 50px 10px;
+    }
+    #buy_number .inner_counter.slide_counter ul li {
+        width: 25vw;
+    }
+    .brandbx {
+        height: 90px;
+    }
+    .inqproject .block_btn {
+        display: inline-block;
+        margin: 6px -28px;
+        padding: 6px 8px;
+        border: none;
+    }
+    .inqproject .block_btn:hover {
+        background: transparent;
+    }
+    .boxed_layout {
+        margin: 0 10px;
+    }
+    .detail {
+        padding-right: 10vw;
+    }
+    #our_profile .prof_img {
+        top: 4rem;
+    }
+    .inner_counter.slide_counter .num {
+        font-size: 3rem !important;
+    }
+    .inner_counter.slide_counter sup {
+        top: 40px;
+    }
+    #our_profile .prof_img,
+    .quality_img,
+    #why_acme .car_intro {
+        position: relative !important;
+    }
+    .headbanner.active::after {
+        top: 78%;
+    }
+    .quality_img {
+        top: 14rem !important;
+        right: 0rem;
+    }
+    #construction .fig_img,
+    #quick_figure .fig_img,
+    .overlay-menu .img_block,
+    .inqproject span {
+        display: none;
+    }
+    .ac_pad,
+    .padbigbtm {
+        padding-bottom: 5rem !important;
+    }
+    #all_blog .padbigbtm {
+        padding-bottom: 15rem !important;
+    }
+    #explore_service h4 {
+        font-size: 14px;
+    }
+    #explore_service h4::after {
+        width: 120px;
+    }
+    .job_bx {
+        padding: 2rem;
+    }
+    #buy_number {
+        margin-top: 50px;
+    }
+    #why_acme .car_intro {
+        position: relative;
+    }
+    #all_vendor .inq_form,
+    .contact .inq_form {
+        padding: 2rem 2rem 4rem 2rem;
+        width: 80vw;
+        margin: -2.5rem auto 0 auto;
+    }
+    #loc_map .service__img iframe {
+        height: 300px;
+    }
+    #all_services .ser_intro,
+    #all_vendor .ser_intro,
+    .contact .ser_intro,
+    .career .car_intro,
+    #cur_open .car_intro,
+    #all_blog .ser_intro {
+        width: 16rem !important;
+        padding: 15px 25px !important;
+    }
+    .service_bx.bx1 .ser_intro,
+    .service_bx.bx3 .ser_intro,
+    #all_vendor .service_bx .ser_intro,
+    .contact .ser_intro,
+    .career .car_intro,
+    .career_img {
+        left: 0 !important;
+    }
+    .service_bx.bx2 .ser_intro,
+    .service_bx.bx4 .ser_intro {
+        right: 0 !important;
+    }
+    #all_services .u_head,
+    #all_vendor .u_head,
+    #why_acme .u_head,
+    #cur_open .u_head,
+    #all_blog .u_head {
+        font-size: 1.6rem;
+        line-height: 2rem !important;
+    }
+    #subscription .u_head {
+        font-size: 2.6rem;
+        line-height: 3rem !important;
+        margin-top: 1rem;
+    }
+    #all_services .sm_bar,
+    #all_vendor .sm_bar,
+    .contact .sm_bar,
+    .career .sm_bar,
+    #all_blog .sm_bar {
+        margin: 15px 0;
+    }
+    #buy_number .sm_bar {
+        margin: 0 auto !important;
+    }
+    #buy_number .slide_counter {
+        margin-top: 5rem;
+    }
+    #all_services p,
+    #all_vendor p,
+    #all_blog p,
+    #all_contact p {
+        font-size: 12px;
+        line-height: 16px
+    }
+    .abt_brand .content {
+        width: 16rem;
+    }
+    #quote .career_img {
+        left: 0 !important;
+        margin: 3.5rem 0;
+    }
+    #qpo .quot_dtl {
+        width: 100% !important;
+        margin-left: 0;
+    }
+    .pro_testimonial,
+    .carousel {
+        width: 90vw;
+    }
+    .input__label--ruri {
+        font-size: 1rem !important;
+    }
+    #pro_inquiry .block_btn.submit {
+        margin-top: 20px !important;
+    }
+    #pro_inquiry .form_bx {
+        padding-top: 2vw !important;
+    }
+    #project_album .poster {
+        padding-top: 3.5rem !important;
+        margin-bottom: 0 !important;
+    }
+    .block_btn {
+        padding: 10px 30px;
+    }
+    .bigposter .u_head .word1,
+    .bigposter .u_head .word2,
+    .bigposter .u_head .word3,
+    .bigposter .u_head .word4 {
+        padding-right: 0;
+    }
+    .career .overlay1 {
+        z-index: 99;
+    }
+    .block-revealer {
+        z-index: 100;
+    }
+    .modal__inner {
+        max-height: 450px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .btn--modal-close {
+        padding: 6px 20px;
+    }
+    .modal__inner {
+        padding: 2rem !important;
+    }
+    .modal__inner .fsize24 {
+        font-size: 20px !important;
+    }
+    .desk_form,
+    .desk {
+        display: none !important;
+    }
+    .mob {
+        display: block;
+    }
+    .mob_form .form_bx {
+        background: #191919;
+        margin: 0 20px;
+    }
+    .mob_form .boxed_layout {
+        margin: 0 !important;
+    }
+    #pro_inquiry.mob_form {
+        display: block;
+        height: auto !important;
+        position: static !important;
+        background: #fff !important;
+        -webkit-transform: translateX(0) !important;
+        -ms-transform: translateX(0) !important;
+        -moz-transform: translateX(0) !important;
+    }
+    #pro_inquiry .form-group {
+        margin-bottom: 1rem;
+    }
+    #pro_inquiry input {
+        border-bottom: 2px solid #666;
+    }
+    .modal--open .inq_btn {
+        margin-bottom: 15px;
+    }
+    #pro_inquiry .boxed_layout {
+        margin-left: 0 !important;
+    }
+    .apply_form {
         padding: 3.5em;
-    color: #fff;
-    background: #f47821;
-  }
-}
-
-@media(max-width: 1199px){
-  .ac_pad {
-       padding: 8.5rem 1rem 4.5rem 4rem;
-  }
-  .guideline {
-    left: 2.5rem;
-   }
-   .headbanner.active::after{
-    content: none;
-   }
-  .hero_poster{
-    background-size: cover;
-  }
-  .s_img{
-    margin:0.5rem 0 !important; 
-  }
-  #pro_inquiry .form_bx{
-    padding-left: 3vw;
-  }
-  /* .padr{
-    padding-right:3rem !important;
-  } */
-  #our_profile .prof_img {
-      left: 0rem !important;
-  }
-  .u_head,#quick_figure .u_head {
-     font-size: 2.6rem;
-    line-height: 3.3rem !important;
-  } 
-  .service_bx .ser_intro .u_head {
-      line-height: 2.5rem;
-  }
-  .service_bx.bx2 .ser_intro{
-    right: -4rem;
-  }
-  .stmp_btm ul {
-      padding-left: 1rem;
-  }
-  #st_map_dtl .stmp_btm ul li a:before {
-      left: 1.93rem;
-  }
-  .ser_intro{
-    width: 34rem;
-  }
-  #loc_map .ser_intro{
-    z-index: 99;
-  }
-  #loc_map .service__img{
-    left: 0;
-  }
-  #st_map_dtl .acme_links a {
-    font-size: 2.8rem;
-    line-height: 4.5rem;
-  }
-  .stmp_btm ul li a {
-      font-size: 1rem;
-      line-height:2rem;
-  }
-  #all_vendor .ac_pad,#all_contact .ac_pad{
-   padding-top: 20rem;
-  }
-  #brand_name_bar{
-    top:-6rem;
-  }
-  
-  #pro_inquiry h1{
-    font-size: 25px;
-  }
-  
-  #pro_inquiry p{
-    font-size: 13px;
-  }
-  .slct_boxes ul li{
-    width: 48%;
-    font-size: 10px;
-    margin: 3px 3px 3px 0;
-  }
-  #we_create .bigposter .u_head .word1 .char1,#services .bigposter .pos_title.u_head .word1 .char1,#service_fitout .u_head .word1 .char1{
-    margin-right: -6px;
-  }
-  .policy_content .para{
-    padding-left:3rem;
-  }
-  .brand_detail .bigposter::after,#acme_project.active .bigposter:after{
-   background-size: cover !important;
-  }
-  .act_term {
-      font-size: 11px !important;
-  }
-}
-
-@media(max-width: 991px){
-  .sl_sub_hd{
-    font-size: 12vmin;
-  }
-  .blog_inner .content{
-    width: auto;
-  }
-  .acme_zoom_slider .dot-nav{
-    width: 250px;
-        right: 15px;
-  }
-  .project_menu li img{
-    width: 180px;
-  }
-  .project_intro{
-    padding-right: 1rem;
-    height: 172px;  
-    width: auto;
-  }
-  #buy_number .inner_counter.slide_counter sup {
-      font-size: 1.2rem !important;
-  }
-  .inner_counter.slide_counter  small{
-    font-size: 10px !important;
-  }
-  .grid_num{
-    font-size: 7rem;
-      left: -3px;
-      top: 1rem;
-  }
-  .project_name{
-    font-size: 1.5rem;
-      left: 6px;
-      margin-top: -3.7rem;
-  }
-  footer .ofc_address{
-    padding-left: .5rem;
-  }
-  footer .ftr_bx{
-      padding: 4rem 0rem 4rem 4rem;
-  }
-   
-  .sub_content{
-    padding: 0;
-  }
-  .sub_bx .form-group{
-    width: 250px;
-  }
-  #opening .space100{
-    margin-top: 30px !important;
-  }
-  #project_album{
-     margin: 4vh 6vh;
-  }
-  #quick_figure .prof_content {
-    margin-left: -6rem;
-  }
-  .quot_dtl,.quote_bx{
-    width: 100% !important;
-  }
- 
-  .quot_dtl p{
-     font-size: 12px;
-    }    
-  .quote_bx p {
-     font-size: 20px !important;
-      line-height: 27px !important; 
-  }
-  #our_work .work_content{
-    padding: 20px;
-  }
-  #explore_service .img_block{
-    display: none;
-  }
-  #loc_map .ser_intro{
-    right: -5rem;
-  }
-  #brand_name_bar .bar_bx{
-    padding: 20px;  
-  }
-  
-  #brand_name_bar .social li a{
-    font-size: 18px;
-  }
-  .inq_form{
-        padding: 8rem 2rem 4rem 2rem; 
-  }
-  .short_desc{
-    display: none;
-  }
-  .project_intro{
-    height: 120px !important;
-    bottom: -8.5rem;
-  }
-  .key_feature li{
-    font-size: 12px;
-  }
-  .headbanner.active .bigposter::after{
-    background-size: cover !important;
-  }
-  .guideline{
-    display: none !important;
-  }
-}
-
-@media(max-width:1399px){
-  .overlay .project_menu li a {
-  font-size: 36px;
-    line-height: 52px;
-    padding: 5px 1px;
-  }
-  .headbanner.active::after{
-    top: 86%;
-  }
-  #cl_menu {
-        top: 2rem;
-      right: 6rem;
-      left:auto;
-  }
-  .overlay .main_menu li a {
-      font-size: 20px;
-      line-height: 29px;
-  }    
-  hr{
-    margin: 10px 0 !important;
-  }
-  .overlay nav {
-      padding-top:3%;
-  }
-
-
-  .project-info{
-    top:57% !important;
-  }
-  .project_menu li a:before{
-    left: 1px;
-  }
-  /* .guideline{
-    left: 61px;
-  } */
-  .s_img{
-    margin-top: -2.2rem;
-  }
-  .quality_content {
-       width: 80vw;
-  }
-  .quote_bx{
-    padding: 50px 30px 50px 80px;
-  }
-  .quote_bx p{
-    font-size: 26px;
-      line-height: 36px;
-  }
-/*  .quot_dtl {
-      padding: 30px 20px;
-  }*/
-  .quot_dtl p{
-    font-size: 13px;
-  }
-  .ac_pad,.padbigbtm{
-    padding-bottom: 10rem;
-  }
-  /* .scrollbox3 {
-      max-height: 450px !important;
-  } */
-  #pro_inquiry .form_bx{
-    padding-top: 1vw;
-  }
-  #pro_inquiry .block_btn.submit{
-    margin-top: 0;
-  }
-}
-
-@media(max-width:1499px){
-  #qpo .career_img{
-    top: 5rem;
-  }
-  .fsize50 {
-    font-size: 36px !important;
-  }
-  #all_projects .ac_pad:last-child{
-    padding-bottom: 18rem;  
-  }
-  .carousel-control-prev{
-    left: -4rem;
-  }
-  .carousel-control-next{
-    right: -4rem;
-  }
-  .quality.ehs{
-    width: 94%;
-  }
-
-  #our_profile .prof_img{
-    left: 7.8rem;
-  }
-  #quote .career_img {
-    left: -1vw;
-  }
-  .service_bx.bx2 .service__img {
-    margin-left: 0rem;
-  }
-  .service_bx.bx2 .service__img {
-      margin-left: 0rem;
-  }
-  .service_bx.bx1 .ser_intro,.service_bx.bx3 .ser_intro{
-    left: -10rem;
-  }
-  .req_list{
-    display: none;
-  }
-
-  #pro_inquiry .input__label--ruri,#pro_inquiry form .form-control, #pro_inquiry form select{
-    font-size: 1em;
-  }
-
-}
-
-
-
-@media(max-width:1300px){
-  #management:after,#management:before{
-    content: none;
-  }   
-  footer .ofc_address{
-    padding-left: 0;
-  }
-  #cur_open .car_intro {
-      left: -26.5rem;
+        color: #fff;
+        background: #f47821;
     }
 }
 
-@media(min-width:1300px){
-  .services .service_bx .u_head,.blog .service_bx .u_head{
-    font-size: 4rem;
-  } 
-} 
-
-@media (min-width: 1200px){
- .container {
-    max-width: 1180px;
- }
+@media(max-width: 1199px) {
+    .ac_pad {
+        padding: 8.5rem 1rem 4.5rem 4rem;
+    }
+    .guideline {
+        left: 2.5rem;
+    }
+    .headbanner.active::after {
+        content: none;
+    }
+    .hero_poster {
+        background-size: cover;
+    }
+    .s_img {
+        margin: 0.5rem 0 !important;
+    }
+    #pro_inquiry .form_bx {
+        padding-left: 3vw;
+    }
+    /* .padr{
+    padding-right:3rem !important;
+  } */
+    #our_profile .prof_img {
+        left: 0rem !important;
+    }
+    .u_head,
+    #quick_figure .u_head {
+        font-size: 2.6rem;
+        line-height: 3.3rem !important;
+    }
+    .service_bx .ser_intro .u_head {
+        line-height: 2.5rem;
+    }
+    .service_bx.bx2 .ser_intro {
+        right: -4rem;
+    }
+    .stmp_btm ul {
+        padding-left: 1rem;
+    }
+    #st_map_dtl .stmp_btm ul li a:before {
+        left: 1.93rem;
+    }
+    .ser_intro {
+        width: 34rem;
+    }
+    #loc_map .ser_intro {
+        z-index: 99;
+    }
+    #loc_map .service__img {
+        left: 0;
+    }
+    #st_map_dtl .acme_links a {
+        font-size: 2.8rem;
+        line-height: 4.5rem;
+    }
+    .stmp_btm ul li a {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    #all_vendor .ac_pad,
+    #all_contact .ac_pad {
+        padding-top: 20rem;
+    }
+    #brand_name_bar {
+        top: -6rem;
+    }
+    #pro_inquiry h1 {
+        font-size: 25px;
+    }
+    #pro_inquiry p {
+        font-size: 13px;
+    }
+    .slct_boxes ul li {
+        width: 48%;
+        font-size: 10px;
+        margin: 3px 3px 3px 0;
+    }
+    #we_create .bigposter .u_head .word1 .char1,
+    #services .bigposter .pos_title.u_head .word1 .char1,
+    #service_fitout .u_head .word1 .char1 {
+        margin-right: -6px;
+    }
+    .policy_content .para {
+        padding-left: 3rem;
+    }
+    .brand_detail .bigposter::after,
+    #acme_project.active .bigposter:after {
+        background-size: cover !important;
+    }
+    .act_term {
+        font-size: 11px !important;
+    }
 }
 
-@media(min-width:768px) and (max-width:991px){
-  .services .service_bx.bx2 .ser_intro,.services .service_bx.bx4 .ser_intro {
-      right: -3rem !important;
-  }
-  #all_services .ser_intro{
-    width: 19rem !important;
-    padding: 32px 40px !important;
-  }
-  
-  #all_services .u_head{
-     font-size: 1.6rem;
-     line-height: 2.3rem !important;
-  }
-  #all_services .sm_bar{
-    margin: 15px 0;
-  }
-   .quote_bx {
-    padding: 50px 30px 50px 60px !important;
-  }
-   .quot_dtl{
-      padding: 45px !important;
-  }
-
+@media(max-width: 991px) {
+    .sl_sub_hd {
+        font-size: 12vmin;
+    }
+    .blog_inner .content {
+        width: auto;
+    }
+    .acme_zoom_slider .dot-nav {
+        width: 250px;
+        right: 15px;
+    }
+    .project_menu li img {
+        width: 180px;
+    }
+    .project_intro {
+        padding-right: 1rem;
+        height: 172px;
+        width: auto;
+    }
+    #buy_number .inner_counter.slide_counter sup {
+        font-size: 1.2rem !important;
+    }
+    .inner_counter.slide_counter small {
+        font-size: 10px !important;
+    }
+    .grid_num {
+        font-size: 7rem;
+        left: -3px;
+        top: 1rem;
+    }
+    .project_name {
+        font-size: 1.5rem;
+        left: 6px;
+        margin-top: -3.7rem;
+    }
+    footer .ofc_address {
+        padding-left: .5rem;
+    }
+    footer .ftr_bx {
+        padding: 4rem 0rem 4rem 4rem;
+    }
+    .sub_content {
+        padding: 0;
+    }
+    .sub_bx .form-group {
+        width: 250px;
+    }
+    #opening .space100 {
+        margin-top: 30px !important;
+    }
+    #project_album {
+        margin: 4vh 6vh;
+    }
+    #quick_figure .prof_content {
+        margin-left: -6rem;
+    }
+    .quot_dtl,
+    .quote_bx {
+        width: 100% !important;
+    }
+    .quot_dtl p {
+        font-size: 12px;
+    }
+    .quote_bx p {
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    #our_work .work_content {
+        padding: 20px;
+    }
+    #explore_service .img_block {
+        display: none;
+    }
+    #loc_map .ser_intro {
+        right: -5rem;
+    }
+    #brand_name_bar .bar_bx {
+        padding: 20px;
+    }
+    #brand_name_bar .social li a {
+        font-size: 18px;
+    }
+    .inq_form {
+        padding: 8rem 2rem 4rem 2rem;
+    }
+    .short_desc {
+        display: none;
+    }
+    .project_intro {
+        height: 120px !important;
+        bottom: -8.5rem;
+    }
+    .key_feature li {
+        font-size: 12px;
+    }
+    .headbanner.active .bigposter::after {
+        background-size: cover !important;
+    }
+    .guideline {
+        display: none !important;
+    }
 }
 
-@media(min-width:768px) and (max-width:1199px){
-  .quote_bx{
-    width: 50vw;
-  }
-  .service_bx.bx1 .ser_intro{
-    left: -7rem !important;
-  }
-  .ylbar{
-    top: 36px;
-  }
-  .quote_bx p {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  #qpo .quot_dtl{
-      width: 45vw !important; 
-  }
-  #quote .career_img {
-    left: -6vw !important;
-  }
-
-  #cur_open .car_intro{
-    left: -17.5rem;
-    padding-right: 6rem !important;
-  }
-  #why_acme .car_intro,#cur_open .car_intro{
-    width: 32rem;
-  }
-
-  .bigposter .u_head{
-    line-height: 3.3rem !important;
-  }
-
-  .bigposter .u_head span{
-    font-size: 3rem;
-  }
-  .bigposter .u_head .word1 .char1 {
-      font-size: 5rem;
-  }
-
-  
+@media(max-width:1399px) {
+    .overlay .project_menu li a {
+        font-size: 36px;
+        line-height: 52px;
+        padding: 5px 1px;
+    }
+    .headbanner.active::after {
+        top: 86%;
+    }
+    #cl_menu {
+        top: 2rem;
+        right: 6rem;
+        left: auto;
+    }
+    .overlay .main_menu li a {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    hr {
+        margin: 10px 0 !important;
+    }
+    .overlay nav {
+        padding-top: 3%;
+    }
+    .project-info {
+        top: 57% !important;
+    }
+    .project_menu li a:before {
+        left: 1px;
+    }
+    /* .guideline{
+    left: 61px;
+  } */
+    .s_img {
+        margin-top: -2.2rem;
+    }
+    .quality_content {
+        width: 80vw;
+    }
+    .quote_bx {
+        padding: 50px 30px 50px 80px;
+    }
+    .quote_bx p {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    /*  .quot_dtl {
+      padding: 30px 20px;
+  }*/
+    .quot_dtl p {
+        font-size: 13px;
+    }
+    .ac_pad,
+    .padbigbtm {
+        padding-bottom: 10rem;
+    }
+    /* .scrollbox3 {
+      max-height: 450px !important;
+  } */
+    #pro_inquiry .form_bx {
+        padding-top: 1vw;
+    }
+    #pro_inquiry .block_btn.submit {
+        margin-top: 0;
+    }
 }
 
-@media(min-width:768px) and (max-width:1100px){
-  .detail {
-      padding-right:10vw;
-  }
-  #quick_figure .prof_content, #construction .prof_content {
-      margin-left: -6rem;
-  }
-  #construction .detail {
-     padding: 1vw 4vw 0 7vw;
-  }
-  .quality_img {
-      top: 0rem;
-  }
-  .inner_counter.slide_counter ul li{
-    width: 10vw;
-  }
-  .inner_counter.slide_counter .num{
-    font-size: 3rem !important;
-  }
-  .slide_counter, .cnt-title{
-    font-size: 12px;
-  }
-  #our_clients .client_bx{
-    height:220px;
-    min-height: auto;
-  }
-  .pdf_links ul{
-    padding: 0;
-  }
-  #quality_saftey .pdf_links ul li a{
-    font-size: 11px;
-  }
-  #our_clients.pad {
-     padding: 13.5rem 4rem;
-  }
-  
+@media(max-width:1499px) {
+    #qpo .career_img {
+        top: 5rem;
+    }
+    .fsize50 {
+        font-size: 36px !important;
+    }
+    #all_projects .ac_pad:last-child {
+        padding-bottom: 18rem;
+    }
+    .carousel-control-prev {
+        left: -4rem;
+    }
+    .carousel-control-next {
+        right: -4rem;
+    }
+    .quality.ehs {
+        width: 94%;
+    }
+    #our_profile .prof_img {
+        left: 7.8rem;
+    }
+    #quote .career_img {
+        left: -1vw;
+    }
+    .service_bx.bx2 .service__img {
+        margin-left: 0rem;
+    }
+    .service_bx.bx2 .service__img {
+        margin-left: 0rem;
+    }
+    .service_bx.bx1 .ser_intro,
+    .service_bx.bx3 .ser_intro {
+        left: -10rem;
+    }
+    .req_list {
+        display: none;
+    }
+    #pro_inquiry .input__label--ruri,
+    #pro_inquiry form .form-control,
+    #pro_inquiry form select {
+        font-size: 1em;
+    }
+}
+
+@media(max-width:1300px) {
+    #management:after,
+    #management:before {
+        content: none;
+    }
+    footer .ofc_address {
+        padding-left: 0;
+    }
+    #cur_open .car_intro {
+        left: -26.5rem;
+    }
+}
+
+@media(min-width:1300px) {
+    .services .service_bx .u_head,
+    .blog .service_bx .u_head {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .services .service_bx.bx2 .ser_intro,
+    .services .service_bx.bx4 .ser_intro {
+        right: -3rem !important;
+    }
+    #all_services .ser_intro {
+        width: 19rem !important;
+        padding: 32px 40px !important;
+    }
+    #all_services .u_head {
+        font-size: 1.6rem;
+        line-height: 2.3rem !important;
+    }
+    #all_services .sm_bar {
+        margin: 15px 0;
+    }
+    .quote_bx {
+        padding: 50px 30px 50px 60px !important;
+    }
+    .quot_dtl {
+        padding: 45px !important;
+    }
+}
+
+@media(min-width:768px) and (max-width:1199px) {
+    .quote_bx {
+        width: 50vw;
+    }
+    .service_bx.bx1 .ser_intro {
+        left: -7rem !important;
+    }
+    .ylbar {
+        top: 36px;
+    }
+    .quote_bx p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #qpo .quot_dtl {
+        width: 45vw !important;
+    }
+    #quote .career_img {
+        left: -6vw !important;
+    }
+    #cur_open .car_intro {
+        left: -17.5rem;
+        padding-right: 6rem !important;
+    }
+    #why_acme .car_intro,
+    #cur_open .car_intro {
+        width: 32rem;
+    }
+    .bigposter .u_head {
+        line-height: 3.3rem !important;
+    }
+    .bigposter .u_head span {
+        font-size: 3rem;
+    }
+    .bigposter .u_head .word1 .char1 {
+        font-size: 5rem;
+    }
+}
+
+@media(min-width:768px) and (max-width:1100px) {
+    .detail {
+        padding-right: 10vw;
+    }
+    #quick_figure .prof_content,
+    #construction .prof_content {
+        margin-left: -6rem;
+    }
+    #construction .detail {
+        padding: 1vw 4vw 0 7vw;
+    }
+    .quality_img {
+        top: 0rem;
+    }
+    .inner_counter.slide_counter ul li {
+        width: 10vw;
+    }
+    .inner_counter.slide_counter .num {
+        font-size: 3rem !important;
+    }
+    .slide_counter,
+    .cnt-title {
+        font-size: 12px;
+    }
+    #our_clients .client_bx {
+        height: 220px;
+        min-height: auto;
+    }
+    .pdf_links ul {
+        padding: 0;
+    }
+    #quality_saftey .pdf_links ul li a {
+        font-size: 11px;
+    }
+    #our_clients.pad {
+        padding: 13.5rem 4rem;
+    }
 }
 
 
@@ -1151,439 +1182,437 @@
   }
 } */
 
-@media(min-width:1400px) and (max-width:1500px){
-  #project_album .poster {
-      margin-bottom: 60px;
-      width: 80%;
-      margin: 0 auto;
-  }
-  .pre_title{
+@media(min-width:1400px) and (max-width:1500px) {
+    #project_album .poster {
+        margin-bottom: 60px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pre_title {
         font-size: 51px;
-  }
-  .headbanner.active::after{
-    top: 91% !important;
-  }
-  
-  .overlay .project_menu li a {
-      font-size: 47px;
-      line-height: 67px;
-  }
-  .overlay .main_menu li a {
-      font-size: 24px;
-      line-height: 35px;
-  }    
-  hr{
-    margin: 1em 0 !important;
-  }
-  .s_img{
-    margin-top: -3.4rem;
-  }
-
-  #quick_figure{
+    }
+    .headbanner.active::after {
+        top: 91% !important;
+    }
+    .overlay .project_menu li a {
+        font-size: 47px;
+        line-height: 67px;
+    }
+    .overlay .main_menu li a {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    hr {
+        margin: 1em 0 !important;
+    }
+    .s_img {
+        margin-top: -3.4rem;
+    }
+    #quick_figure {
         padding: 8.5rem 0 24rem 6.5rem;
-  }
-
+    }
 }
 
-@media(min-width:1800px){
-  .msn sup{
-    right: -10px;
-  }
-  .boxed_layout{
-      width: 1440px;
-      margin: 0 auto;
-      padding-bottom:7vw;
-    } 
-   #our_profile .prof_img,.fig_img,.quality_img{
-      width: 40vw !important;   
-    } 
-  .quality_img{
-    right: -9vw;
-  }
-  
-  .fig_img img,.quality_img img,.prof_img img,#quick_figure .objectrt,#quality_saftey .objectrt,#construction .objectrt{
-    width: 100%;
-  }
-  .open_left,.create_img{
-    margin-left: 7vw;   
-  }
-  .hero_poster{
-    top:-4vh;
-  }
-  /*#brand_name_bar{
+@media(min-width:1800px) {
+    .msn sup {
+        right: -10px;
+    }
+    .boxed_layout {
+        width: 1440px;
+        margin: 0 auto;
+        padding-bottom: 7vw;
+    }
+    #our_profile .prof_img,
+    .fig_img,
+    .quality_img {
+        width: 40vw !important;
+    }
+    .quality_img {
+        right: -9vw;
+    }
+    .fig_img img,
+    .quality_img img,
+    .prof_img img,
+    #quick_figure .objectrt,
+    #quality_saftey .objectrt,
+    #construction .objectrt {
+        width: 100%;
+    }
+    .open_left,
+    .create_img {
+        margin-left: 7vw;
+    }
+    .hero_poster {
+        top: -4vh;
+    }
+    /*#brand_name_bar{
       margin: -9vh 14vh 0 14vh !important;
   }*/
-  .carousel-control-prev{
-    left: -10rem;
-  }
-  
-  .carousel-control-next{
-    right: -18rem;
-  }
-  #testi_slider .carousel-inner {
-      width:65vw;
-  }
-  #testi_slider .carousel-caption {
-     left: 0%;
-     width: 69%;
-  }
-  .emp_msg {
-     font-size: 47px;
-  }
-  .carousel-caption{
-    bottom: 1rem;
-  }
-
-  #management:after{
-    right: 17%;
-  }
-  #management:before {
-       left: 16.5%;
-  }
-  .team_list{
-    padding: 0 30px 10px;
-    margin: 0;
-  }
-  
-  .inner_counter.slide_counter ul li {
-      margin: 3rem 1.9rem 0rem;
-  }
-  .boxed{
-    width: 70vw;
-    margin: 0 auto;
-  }
-  .fig_img{
-    left: -9vw;
-  }
-  #our_profile .prof_img{
-    width: auto !important;
-  }
-  
-  .quot_dtl{
-    width: 40rem;
-  }
-  #quote .career_img {
-      left: 3vw;
-  }
-  /* #qpo .quot_dtl{
-      width: 34vw !important;
-  } */
-  #qpo .career_img {
-      top: 15rem;
-  }
-  #our_profile{
-      padding-right:  0;
-  }
-  
-  .padbigbtm{
-     padding-bottom:24rem;
-  }
-  .padbigtop{
-    padding-top:20rem !important;
-  }
-  .scrollbox3 {
-      max-height: 100%;
-  }
-
-  #we_create.active .bigposter:after{
-    background:url(../img/about/Cover-2560x1440.jpg) 50% 30% no-repeat !important;
-  }
-  #vendor.active .bigposter:after{
-    background:url(../img/vendors/Vendors-2560x1440.jpg) 50% 30% no-repeat !important;
-  }
-  #acme_blog.active .bigposter:after{
-    background-image:url(../img/career/Careers-2560x1440.jpg)   !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
-  }
-  #acme_career.active .bigposter:after{
-     background-image:url(../img/career/Careers-2560x1440.jpg)   !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    .carousel-control-prev {
+        left: -10rem;
     }
-  #acme_contact.active .bigposter:after{
-     background:url(../img/contact/Contact-2560x1440.jpg) 50% 40% no-repeat !important;
-  }
-  #services.active .bigposter:after{
-     background-image:url(../img/services/Services-Cover-2560x1440.jpg)  !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    .carousel-control-next {
+        right: -18rem;
     }
-    #service_fitout.active .bigposter:after{
-      background-image:url(../img/services/FitOut-2560x1440.jpg)  !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #testi_slider .carousel-inner {
+        width: 65vw;
     }
-  
-    #service_gc.active .bigposter:after{
-      background-image:url(../img/services/General-Contracting-2560x1440.jpg) !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat; 
+    #testi_slider .carousel-caption {
+        left: 0%;
+        width: 69%;
     }
-    #service_design.active .bigposter:after{
-     background-image:url(../img/services/DesignBuild-2560x1440.jpg) !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    .emp_msg {
+        font-size: 47px;
     }
-    #service_refurb.active .bigposter:after{
-     background:url(../img/services/OfficeRefurbishment-2560x1440.jpg) !important;
-     background-position:  50% !important;
-      background-size: 100% !important; 
-      background-repeat: no-repeat;
+    .carousel-caption {
+        bottom: 1rem;
     }
-  
-  #buy_number{
-     background:url(../img/career/Careers-Inner-2560x1440.jpg) 50% 40% no-repeat !important;
-  }
-}
-  
-
-@media(min-width:1950px){
-  
-    .inner_counter.slide_counter ul li{
-      width: 8vw;
+    #management:after {
+        right: 17%;
     }
-    #quick_figure .slide_counter ul{
-      padding-left: 5vw;
+    #management:before {
+        left: 16.5%;
     }
-    .prof_content{
-          width: 38vw;
+    .team_list {
+        padding: 0 30px 10px;
+        margin: 0;
     }
-    .quality_content{
-          width: 60vw;
+    .inner_counter.slide_counter ul li {
+        margin: 3rem 1.9rem 0rem;
+    }
+    .boxed {
+        width: 70vw;
+        margin: 0 auto;
     }
     .fig_img {
-      left: -14vw;
-  }
-    .detail {
-      padding: .5vw 14vw .5vw 0;
-  }
-  #quality_saftey .detail{
-    padding-right: 1vw;
-  }
-  #construction .detail{
-        padding: 1vw 5vw 0 7vw !important;
-  }
-  
-  #construction .fig_img {
-      top: 14vw;
-       left: -14vw;
-  }
-  
-  #quick_figure{
-    padding-bottom: 43rem;
-  }
-  #construction{
-    padding-bottom: 25rem;
-  }
-  .quality_img {
-    top: -6rem;
-    right: -22rem;
-  }
-  #our_profile .pdf_links {
-      padding-left: 0vw;
-  }
-  #our_clients.pad{
-    padding: 8.5rem 0 !important;
-  }
-  .container{
-    max-width: 1440px;
-  }
-  .service__img img{
-    width: 100%;
-  }
-  .service_grid .pad{
-    padding: 12.5rem 0;
-  }
-  footer .ftr_bx{
-    padding: 24rem 1rem 24rem 6rem !important;
-  }
-
-  #our_work{
-  padding-bottom: 16rem;
-  }
-  .pdf_links ul{
-    padding: 0;
-  }
-  #our_clients .client_bx{
-    min-height: 336px;
-  }
-  .headbanner.active:after{
-    top: 94% !important; 
-  }
-  .scroll_down{
-    top:-3rem;
-  }
-  .poster_wrap{
-        height: 84vh !important;
-  }
-  .boxed_layout{
-    padding-bottom: 0 !important;
-  }
-  .headbanner.active::after{
-    top: 86%;
-  }
+        left: -9vw;
+    }
+    #our_profile .prof_img {
+        width: auto !important;
+    }
+    .quot_dtl {
+        width: 40rem;
+    }
+    #quote .career_img {
+        left: 3vw;
+    }
+    /* #qpo .quot_dtl{
+      width: 34vw !important;
+  } */
+    #qpo .career_img {
+        top: 15rem;
+    }
+    #our_profile {
+        padding-right: 0;
+    }
+    .padbigbtm {
+        padding-bottom: 24rem;
+    }
+    .padbigtop {
+        padding-top: 20rem !important;
+    }
+    .scrollbox3 {
+        max-height: 100%;
+    }
+    #we_create.active .bigposter:after {
+        background: url(../img/about/Cover-2560x1440.jpg) 50% 30% no-repeat !important;
+    }
+    #vendor.active .bigposter:after {
+        background: url(../img/vendors/Vendors-2560x1440.jpg) 50% 30% no-repeat !important;
+    }
+    #acme_blog.active .bigposter:after {
+        background-image: url(../img/career/Careers-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #acme_career.active .bigposter:after {
+        background-image: url(../img/career/Careers-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #acme_contact.active .bigposter:after {
+        background: url(../img/contact/Contact-2560x1440.jpg) 50% 40% no-repeat !important;
+    }
+    #services.active .bigposter:after {
+        background-image: url(../img/services/Services-Cover-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_fitout.active .bigposter:after {
+        background-image: url(../img/services/FitOut-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_gc.active .bigposter:after {
+        background-image: url(../img/services/General-Contracting-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_design.active .bigposter:after {
+        background-image: url(../img/services/DesignBuild-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_refurb.active .bigposter:after {
+        background: url(../img/services/OfficeRefurbishment-2560x1440.jpg) !important;
+        background-position: 50% !important;
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+    }
+    #buy_number {
+        background: url(../img/career/Careers-Inner-2560x1440.jpg) 50% 40% no-repeat !important;
+    }
 }
 
+@media(min-width:1950px) {
+    .inner_counter.slide_counter ul li {
+        width: 8vw;
+    }
+    #quick_figure .slide_counter ul {
+        padding-left: 5vw;
+    }
+    .prof_content {
+        width: 38vw;
+    }
+    .quality_content {
+        width: 60vw;
+    }
+    .fig_img {
+        left: -14vw;
+    }
+    .detail {
+        padding: .5vw 14vw .5vw 0;
+    }
+    #quality_saftey .detail {
+        padding-right: 1vw;
+    }
+    #construction .detail {
+        padding: 1vw 5vw 0 7vw !important;
+    }
+    #construction .fig_img {
+        top: 14vw;
+        left: -14vw;
+    }
+    #quick_figure {
+        padding-bottom: 43rem;
+    }
+    #construction {
+        padding-bottom: 25rem;
+    }
+    .quality_img {
+        top: -6rem;
+        right: -22rem;
+    }
+    #our_profile .pdf_links {
+        padding-left: 0vw;
+    }
+    #our_clients.pad {
+        padding: 8.5rem 0 !important;
+    }
+    .container {
+        max-width: 1440px;
+    }
+    .service__img img {
+        width: 100%;
+    }
+    .service_grid .pad {
+        padding: 12.5rem 0;
+    }
+    footer .ftr_bx {
+        padding: 24rem 1rem 24rem 6rem !important;
+    }
+    #our_work {
+        padding-bottom: 16rem;
+    }
+    .pdf_links ul {
+        padding: 0;
+    }
+    #our_clients .client_bx {
+        min-height: 336px;
+    }
+    .headbanner.active:after {
+        top: 94% !important;
+    }
+    .scroll_down {
+        top: -3rem;
+    }
+    .poster_wrap {
+        height: 84vh !important;
+    }
+    .boxed_layout {
+        padding-bottom: 0 !important;
+    }
+    .headbanner.active::after {
+        top: 86%;
+    }
+}
+
+
 /* Query for Cover background images */
-  /*for mobile protrait/Lanscape */
-  @media(min-width:0) and (max-width:767px){
-    #we_create.active .bigposter:after{
+
+
+/*for mobile protrait/Lanscape */
+
+@media(min-width:0) and (max-width:767px) {
+    #we_create.active .bigposter:after {
         background: url(../img/about/Cover-768x1280.jpg) 90% 25% no-repeat !important;
     }
-    #vendor.active .bigposter:after{
-      background-image:url(../img/vendors/Vendors-768x1280.jpg)!important;
-       background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #vendor.active .bigposter:after {
+        background-image: url(../img/vendors/Vendors-768x1280.jpg)!important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
     /* #acme_blog.active .bigposter:after{
       background:url(../img/XL-Catlin/XL-Catlin-768x1280.jpg) 50% 30% no-repeat !important;
     } */
-    #acme_career.active .bigposter:after{
-      background-image:url(../img/career/Careers-768x1280.jpg)  !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #acme_career.active .bigposter:after {
+        background-image: url(../img/career/Careers-768x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    #acme_contact.active .bigposter:after{
-      background-image:url(../img/contact/Contact-768x1280.jpg) !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #acme_contact.active .bigposter:after {
+        background-image: url(../img/contact/Contact-768x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    #services.active .bigposter:after{
-     background-image:url(../img/services/Services-Cover-768x1280.jpg)  !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #services.active .bigposter:after {
+        background-image: url(../img/services/Services-Cover-768x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    #service_fitout.active .bigposter:after{
-      background-image:url(../img/services/FitOut-768x1280.jpg)  !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #service_fitout.active .bigposter:after {
+        background-image: url(../img/services/FitOut-768x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-  
-    #service_gc.active .bigposter:after{
-      background-image:url(../img/services/General-Contracting-768x1280.jpg) !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat; 
+    #service_gc.active .bigposter:after {
+        background-image: url(../img/services/General-Contracting-768x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    #service_design.active .bigposter:after{
-     background-image:url(../img/services/DesignBuild-768x1280.jpg) !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
+    #service_design.active .bigposter:after {
+        background-image: url(../img/services/DesignBuild-768x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    #service_refurb.active .bigposter:after{
-     background:url(../img/services/OfficeRefurbishment-768x1280.jpg) !important;
-     background-position:  50% !important;
-      background-size: 100% !important; 
-      background-repeat: no-repeat;
+    #service_refurb.active .bigposter:after {
+        background: url(../img/services/OfficeRefurbishment-768x1280.jpg) !important;
+        background-position: 50% !important;
+        background-size: 100% !important;
+        background-repeat: no-repeat;
     }
-  
-    #buy_number{
-     background:url(../img/career/Careers-Inner-768x1280.jpg) 95% 42% no-repeat !important;
+    #buy_number {
+        background: url(../img/career/Careers-Inner-768x1280.jpg) 95% 42% no-repeat !important;
     }
-    
-  }
+}
 
-  /*for mobile protrait/Lanscape */
-  @media(min-width:768px) and (max-width:1799px){
-    #we_create.active .bigposter::after{
-      background: url(../img/about/About-1920x1280.jpg) 60% 15% no-repeat;
-    }
-    #vendor.active .bigposter:after{
-      background-image:url(../img/vendors/Vendors-1920x1280.jpg)  !important;
-      background-position: 50%;
-      background-size: 100%;
-      background-repeat:  no-repeat;
-    }
-    #acme_blog.active .bigposter:after{
-      background-image:url(../img/XL-Catlin/XL-Catlin-1920x1280.jpg) !important;
-      background-size: 100%;
-      background-position: 50%;
-      background-repeat: no-repeat;
-    }
-    #acme_career.active .bigposter:after{
-      background-image:url(../img/career/Careers-1920x1280.jpg)  !important;
-      background-size: 100%;
-      background-position: 50%;
-      background-repeat: no-repeat;
-    }
-    #acme_contact.active .bigposter:after{
-      background-image:url(../img/contact/Contact-1920x1280.jpg) !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
 
-    }
-    #services.active .bigposter:after{
-     background-image:url(../img/services/Services-Cover-1920x1280.jpg)  !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
-    }
-    #service_fitout.active .bigposter:after{
-      background-image:url(../img/services/FitOut-1920x1280.jpg)  !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
-    }
-    #acme_project.active .bigposter:after{
-     background-image:url(../img/XL-Catlin/XL-Catlin-2560x1440.jpg) !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
-    }
-    #service_gc.active .bigposter:after{
-      background-image:url(../img/services/General-Contracting-1920x1280.jpg) !important;
-      background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat; 
-    }
-    #service_design.active .bigposter:after{
-     background-image:url(../img/services/DesignBuild-1920x1280.jpg) !important;
-     background-position:  50%;
-      background-size: 100%;  
-      background-repeat: no-repeat;
-    }
-    #service_refurb.active .bigposter:after{
-     background:url(../img/services/OfficeRefurbishment-1920x1280.jpg) !important;
-     background-position:  50% !important;
-      background-size: 100%;  
-      background-repeat: no-repeat;
-    }
-    #buy_number{
-     background:url(../img/career/Careers-Inner-1920x1280.jpg) 50% 40% no-repeat !important;
-    }
-  }
-  
+/*for mobile protrait/Lanscape */
 
-  #acme_project.active .bigposter:after{
-     background-image:url(../img/all_project/XL-Catlin-2560x1440.jpg) !important;
-     background-position: 50% 90%;
-     background-size: 100%;
+@media(min-width:768px) and (max-width:1799px) {
+    #we_create.active .bigposter::after {
+        background: url(../img/about/About-1920x1280.jpg) 60% 15% no-repeat;
+    }
+    #vendor.active .bigposter:after {
+        background-image: url(../img/vendors/Vendors-1920x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #acme_blog.active .bigposter:after {
+        background-image: url(../img/XL-Catlin/XL-Catlin-1920x1280.jpg) !important;
+        background-size: 100%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+    #acme_career.active .bigposter:after {
+        background-image: url(../img/career/Careers-1920x1280.jpg) !important;
+        background-size: 100%;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+    #acme_contact.active .bigposter:after {
+        background-image: url(../img/contact/Contact-1920x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #services.active .bigposter:after {
+        background-image: url(../img/services/Services-Cover-1920x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_fitout.active .bigposter:after {
+        background-image: url(../img/services/FitOut-1920x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #acme_project.active .bigposter:after {
+        background-image: url(../img/XL-Catlin/XL-Catlin-2560x1440.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_gc.active .bigposter:after {
+        background-image: url(../img/services/General-Contracting-1920x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_design.active .bigposter:after {
+        background-image: url(../img/services/DesignBuild-1920x1280.jpg) !important;
+        background-position: 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #service_refurb.active .bigposter:after {
+        background: url(../img/services/OfficeRefurbishment-1920x1280.jpg) !important;
+        background-position: 50% !important;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #buy_number {
+        background: url(../img/career/Careers-Inner-1920x1280.jpg) 50% 40% no-repeat !important;
+    }
+}
+
+#acme_project.active .bigposter:after {
+    background-image: url(../img/all_project/XL-Catlin-2560x1440.jpg) !important;
+    background-position: 50% 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
-  }
+}
 
 
+/* IE 10+ */
 
-
-  /* IE 10+ */
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .bigposter .u_head .word1 .char1{
-      padding-top: 45px;
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .bigposter .u_head .word1 .char1 {
+        padding-top: 45px;
     }
-    .revelal_layer1{
-      display: none !important;
+    .revelal_layer1 {
+        display: none !important;
     }
-  }
+}
+
+@media(max-width:768px) {
+    .logo span {
+        font-size: 35px;
+    }
+}

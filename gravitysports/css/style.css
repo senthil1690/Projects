@@ -1153,14 +1153,14 @@ header {
     z-index: 9;
     text-align: center;
     margin-left: auto;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     flex: 1;
+    height: 85px;
 }
 
 .master .logo {
-    padding-top: 15px;
     display: block
 }
 
@@ -1178,9 +1178,11 @@ header {
 }
 
 #cl_menu {
-    position: fixed;
-    top: 130px;
-    left: -2px
+    position: absolute;
+    top: 20px !important;
+    right: 20px !important;
+    height: 50px !important;
+    left: auto;
 }
 
 .navtxt,
@@ -1338,10 +1340,14 @@ header {
 
 .button_container {
     position: relative;
-    margin: 0 45px;
+    margin: 0 !important;
     cursor: pointer;
-    left: -39px;
     z-index: 9;
+    float: left;
+    width: 75px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .nav_revel {
@@ -1365,7 +1371,7 @@ header {
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    padding: 25px 20px;
+    padding: 0px 20px;
     overflow: hidden;
     z-index: 1050;
     -webkit-transform: translateX(-200%);
@@ -4911,7 +4917,7 @@ footer .ofc_address #right-panel1 .details {
     display: flex;
     margin: 0;
     padding: 0;
-    width: 50%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
