@@ -1617,12 +1617,6 @@
     }
 }
 
-@media(max-width:768px) {
-    .logo span {
-        font-size: 35px;
-    }
-}
-
 @media(max-width:480px) {
     .logo {
         padding: 0px 20px;
