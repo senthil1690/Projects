@@ -1616,3 +1616,11 @@
         font-size: 35px;
     }
 }
+
+@media(max-width:480px) {
+    .logo {
+        padding: 0px 20px;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
